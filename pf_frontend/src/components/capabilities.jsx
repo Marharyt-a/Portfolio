@@ -1,0 +1,50 @@
+import "../css/capabilities.css"
+
+function Capabilities() {
+
+    return (
+        <div className="capabilities_body">
+            <div className="capabilities_header">
+                <h2>
+                    Capabilities
+                </h2>
+            </div>
+            <div className="cards-grid">
+            <div className="card card-purple">
+                <h4>Web Development</h4>
+                <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>Python / Flask</li>
+                </ul>
+            </div>
+            <div className="card card-light">
+                <h4>UI & Frontend</h4>
+                <ul>
+                    <li>Responsive UI</li>
+                    <li>Figma → Code</li>
+                    <li>HTML / CSS</li>
+                </ul>
+            </div>
+            <div className="card card-light">
+                <h4>Manual QA & Testing</h4>
+                <ul>
+                    <li>Functional testing</li>
+                    <li>Bug reporting</li>
+                    <li>Regression tests</li>
+                </ul>
+            </div>
+            <div className="card card-purple">
+                <h4>Problem Solving</h4>
+                <ul>
+                    <li>Debugging</li>
+                    <li>Requirements</li>
+                    <li>Research</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    )
+}
+
+export default Capabilities

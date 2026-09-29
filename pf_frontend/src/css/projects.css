@@ -1,0 +1,124 @@
+/* Загальне тло та шрифт */
+.projects-container {
+  background-color: #b7a0f8; /* Світло-бузкове тло всієї сторінки */
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace; /* Моноширинний шрифт */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* Верхня шапка "My projects" */
+.projects-header {
+  background-color: #8452ec; /* Яскраво-фіолетова шапка */
+  text-align: center;
+  padding: 16px 0;
+}
+
+.projects-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Контейнер для вмісту */
+.projects-content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+/* Текст "Featured" */
+.featured-label {
+  font-size: 24px;
+  margin: 0 0 16px 0;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+/* Картка проекту */
+.project-card {
+  background-color: #120d1c; /* Темно-фіолетовий/майже чорний блок */
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Зображення прев'ю */
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Деталі проекту */
+.project-details {
+  padding: 25px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 12px 0;
+  color: #ffffff;
+}
+
+.project-description {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  color: #ffffff;
+}
+
+.project-tags {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  color: #ffffff;
+}
+
+/* Посилання на GitHub */
+.project-github-link {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top:20px;
+}
+
+.project-github-link:hover {
+  text-decoration: underline;
+}
+
+.section-features {
+    padding: 15px;
+    list-style-type: square;
+}
+
+
+/* Адаптивність */
+@media (max-width: 600px) {
+  .project-image {
+    height: 180px;
+  }
+
+  .project-details {
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+}

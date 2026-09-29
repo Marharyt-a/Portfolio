@@ -1,0 +1,133 @@
+
+
+/* Верхня шапка "Let's connect!" */
+.contacts-header {
+  background-color: #8B5CF6; /* Світло-бузковий */
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.contacts-header h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Основна темна секція */
+.contacts-content {
+  background-color: #120d1c; /* Темно-фіолетове тло */
+  padding: 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Підзаголовок */
+.contacts-subtitle {
+  font-size: 15px;
+  margin: 0 0 12px 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Контейнер для 2-х карток */
+.contacts-cards {
+  display: flex;
+  gap: 30px;
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contacts-card {
+  flex: 1;
+  padding: 12px 12px;
+  border-radius: 2px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Ліва картка (Email) - світло-бузкова */
+.card-light {
+  background-color: #b7a0f8;
+}
+
+/* Права картка (Socials) - яскраво-фіолетова */
+.card-purple {
+  background-color: #8B5CF6;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  font-weight: normal;
+}
+
+.email-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+/* Посилання в правій картці */
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Статус "Open to junior/freelance opportunities" */
+.status-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Нижній футер */
+.contacts-footer {
+  background-color: #8B5CF6; /* Яскраво-фіолетовий */
+  text-align: center;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
+/* Адаптивність для мобільних екранів */
+@media (max-width: 768px) {
+  .contacts-cards {
+    flex-direction: column;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
