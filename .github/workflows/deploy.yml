@@ -27,6 +27,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Show files
+        run: |
+          echo "Current directory:"
+          pwd
+          echo ""
+          echo "Files:"
+          ls -la
+          echo ""
+          echo "Package lock files:"
+          find . -name "package-lock.json" -print
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
