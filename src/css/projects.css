@@ -1,6 +1,6 @@
 /* Загальне тло та шрифт */
 .projects-container {
-  background-color: #b7a0f8; /* Світло-бузкове тло всієї сторінки */
+  background-color: #C4B5FD; /* Світло-бузкове тло всієї сторінки */
   color: #ffffff;
   font-family: 'Courier New', Courier, monospace; /* Моноширинний шрифт */
   min-height: 100vh;
@@ -8,25 +8,24 @@
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  gap:10px;
 }
 
 /* Верхня шапка "My projects" */
 .projects-header {
-  background-color: #8452ec; /* Яскраво-фіолетова шапка */
+  background-color: #8B5CF6; /* Яскраво-фіолетова шапка */
   text-align: center;
   padding: 16px 0;
 }
 
-.projects-header h1 {
+.projects-header {
   margin: 0;
-  font-size: 24px;
   font-weight: bold;
-  letter-spacing: 1px;
 }
 
 /* Контейнер для вмісту */
 .projects-content {
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 20px;
@@ -36,16 +35,16 @@
 
 /* Текст "Featured" */
 .featured-label {
-  font-size: 24px;
-  margin: 0 0 16px 0;
+  font-size: 35px;
+  text-align: right;
   font-weight: normal;
-  color: #ffffff;
+  padding-top: 25px;
 }
 
 /* Картка проекту */
 .project-card {
-  background-color: #120d1c; /* Темно-фіолетовий/майже чорний блок */
-  border-radius: 2px;
+  background-color: #181225; /* Темно-фіолетовий/майже чорний блок */
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -64,21 +63,27 @@
 }
 
 .project-title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: normal;
   margin: 0 0 12px 0;
   color: #ffffff;
 }
 
 .project-description {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0 0 15px 0;
   color: #ffffff;
 }
 
+.section-features, p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
 .project-tags {
-  font-size: 17px;
+  text-align: center;
+  font-size: 20px;
   font-weight: bold;
   margin: 0 0 15px 0;
   color: #ffffff;
@@ -86,12 +91,13 @@
 
 /* Посилання на GitHub */
 .project-github-link {
-  display: inline-block;
   color: #ffffff;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
   text-decoration: none;
-  margin-top:20px;
+  padding-left: 20px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .project-github-link:hover {
@@ -101,8 +107,13 @@
 .section-features {
     padding: 15px;
     list-style-type: square;
+    font-size: 20px;
 }
 
+.section-features, ul {
+  padding-top: 15px;
+  font-weight: bold;
+}
 
 /* Адаптивність */
 @media (max-width: 600px) {

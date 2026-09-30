@@ -1,8 +1,26 @@
 
-/* Фон       #0F0B16
+/* 
+ КОЛЬОРИ:
+Фон       #0F0B16
 Поверхня  #181225
 Основний  #8B5CF6
 Акцент    #C4B5FD
 Текст     #F5F3FF
 Другоряд. #A8A29E
+  
+    ШРИФТ:
+font-family: 'Courier New', Courier, monospace;
+
+    РОЗМІР:
+Заголовки h2 - заголовки з іменем
+font-size: 25px;
+p font-size: 18px
+
+а - посилання в навігації
+font-size: 20px;
+
+Headers: font-size: 25px;
+Less important headers: 20px
+General text: 15px
+
 

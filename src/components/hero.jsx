@@ -16,7 +16,7 @@ function Hero() {
         </h1>
 
         <p className="hero-position">
-            Fullstack Developer | Manual Tester
+            Junior Fullstack Developer | Manual Tester
         </p>
 
     </div>

@@ -7,12 +7,12 @@ const Projects = () => {
     <div className="projects-container" id="projects">
       {/* Верхня шапка */}
       <header className="projects-header">
-        <h1>My projects</h1>
+        <h2>My projects</h2>
       </header>
 
       {/* Основна частина */}
       <main className="projects-content">
-        <h2 className="featured-label">Featured</h2>
+        <h3 className="featured-label">Featured</h3>
 
         {/* Картка проєкту */}
         <article className="project-card">
@@ -22,7 +22,7 @@ const Projects = () => {
             className="project-image"
           />
           <div className="project-details">
-            <h3 className="project-title">Personal Portfolio Website</h3>
+            <h4 className="project-title">Personal Portfolio Website</h4>
             <p className="project-description">A responsive personal portfolio website built with React and JavaScript. 
                 It presents my background, capabilities, projects and contact information while demonstrating my frontend 
                 development skills.</p>
@@ -30,7 +30,7 @@ const Projects = () => {
             <p className="project-tags">[ React ] [ JavaScript ] [ HTML ] [ CSS ] [ Vite ]</p>
 
             <div className="section-features">
-            <h3>Features:</h3>
+            <p>Features:</p>
             <ul className="features-list">
                 <li>Responsive design</li>
                 <li>Component-based architecture</li>
@@ -42,16 +42,21 @@ const Projects = () => {
             </ul>
             </div>
             
-            <a
-              href="https://github.com/Marharyt-a/Portfolio"
+            <div  className="project-github-link">
+              <a href="https://github.com/Marharyt-a/Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="project-github-link"
             >
-              GitHub
-            </a>
+              GitHub</a>
+            </div>
           </div>
         </article>
+
+        <h3 className="featured-label">More projects</h3>
+        <p>To be added!</p>
+
+
       </main>
 
     </div>

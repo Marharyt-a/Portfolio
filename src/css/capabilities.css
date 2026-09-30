@@ -1,7 +1,7 @@
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 50px;
   max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
@@ -19,37 +19,41 @@
   justify-content: space-between;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace; /* Моноширинний шрифт як на зображенні */
-  background-color: #120d1c; /* Темно-фіолетове/майже чорне тло */
+  background-color: #181225; /* Темно-фіолетове/майже чорне тло */
   color: #ffffff;
 }
 
+.capabilities_body, p {
+  font-size: 20px;
+}
+
 .capabilities_header {
-  background-color: #b7a0f8; /* Світло-бузковий колір шапки */
+  background-color: #C4B5FD; /* Світло-бузковий колір шапки */
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
 }
 .card {
   padding: 30px;
-  border-radius: 2px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
 .card-purple {
-  background-color: #8b5cf6;
+  background-color: #8B5CF6;
 }
 
 /* Світло-бузкові картки (2 та 3) */
 .card-light {
-  background-color: #b9a7ff;
+  background-color:#C4B5FD;
 }
 
-h4 {
+h3 {
     margin: 0 0 30px 0;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: normal;
   text-align: right; /* Текст заголовка вирівняний по правому краю */
   color: #ffffff;

@@ -1,7 +1,7 @@
 
 .aboutme_body {
     min-height: 100vh;
-    background-color: #151020;
+    background-color: #181225;
     color: #f8f5ff;
 
     padding-bottom: 50px;
@@ -14,11 +14,10 @@
 
     text-align: center;
 
-    background-color: #8b5cf6;
+    background-color: #8B5CF6;
     color: white;
 
-    font-size: 28px;
-    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .aboutme_text {
@@ -26,7 +25,7 @@
     margin: 40px auto 0;
     padding: 0 30px;
 
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
@@ -37,25 +36,28 @@
 
 .about-cards {
     max-width: 1050px;
-    margin: 35px auto 0;
+    margin: 45px auto 0;
     padding: 0 30px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 40px;
 }
 
 .experience {
-    background-color: #c4b5fd;
+    background-color: #C4B5FD;
     color: white;
+    border-radius: 20px;
 
     padding: 22px 36px;
     min-height: 170px;
 }
 
 .education {
-    background-color: #8b5cf6;
+    background-color: #8B5CF6;
     color: white;
+    border-radius: 20px;
+
 
     padding: 22px 36px;
     min-height: 170px;
@@ -64,21 +66,20 @@
 .about-cards h3 {
     margin: 0 0 20px;
 
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 400;
-    letter-spacing: 1px;
 }
 
 .about-cards h4 {
     margin: 0;
 
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .about-cards p {
     margin: 4px 0;
 
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .experience p:last-child,
@@ -90,5 +91,9 @@
     text-align: left;
 }
 
-
+@media (max-width: 768px) {
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+}
 

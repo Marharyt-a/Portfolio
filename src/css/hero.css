@@ -32,13 +32,13 @@
 .hero-content {
     position: relative;
 
-    width: min(75%, 660px);
+    width: min(75%, 880px);
 
     padding: 55px 70px;
 
     text-align: center;
 
-    background-color: rgba(130, 70, 240, 0.88);
+    background-color: #8B5CF6;
 
     color: white;
 
@@ -68,15 +68,15 @@
 }
 
 .hero-small {
-    font-size: 21px;
+    font-size: 25px;
     margin-bottom: 18px;
 }
 
 .hero-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 18px;
 }
 
 .hero-position {
-    font-size: 21px;
+    font-size: 25px;
 }

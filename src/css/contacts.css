@@ -28,7 +28,7 @@
 
 /* Підзаголовок */
 .contacts-subtitle {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0 0 12px 0;
   text-align: center;
   font-weight: normal;
@@ -37,16 +37,16 @@
 /* Контейнер для 2-х карток */
 .contacts-cards {
   display: flex;
-  gap: 30px;
-  max-width: 600px;
+  gap: 50px;
+  max-width: 1000px;
   width: 100%;
   margin-bottom: 10px;
 }
 
 .contacts-card {
   flex: 1;
-  padding: 12px 12px;
-  border-radius: 2px;
+  padding: 22px 22px;
+  border-radius: 20px;
   text-align: center;
   box-sizing: border-box;
   display: flex;
@@ -56,7 +56,7 @@
 
 /* Ліва картка (Email) - світло-бузкова */
 .card-light {
-  background-color: #b7a0f8;
+  background-color: #C4B5FD;
 }
 
 /* Права картка (Socials) - яскраво-фіолетова */
@@ -65,15 +65,16 @@
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 30px;
   margin: 0 0 10px 0;
   font-weight: normal;
+  text-align: center;
 }
 
 .email-link {
   color: #ffffff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   word-break: break-all;
 }
@@ -93,7 +94,7 @@
 .social-links a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -103,7 +104,7 @@
 
 /* Статус "Open to junior/freelance opportunities" */
 .status-text {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   margin-top: 15px;

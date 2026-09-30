@@ -6,7 +6,7 @@ const Contacts = () => {
     <div className="contacts-wrapper" id="contact">
       {/* Верхня світла шапка */}
       <header className="contacts-header">
-        <h1>Let’s connect!</h1>
+        <h2>Let’s connect!</h2>
       </header>
 
       {/* Центральна темна частина */}
@@ -18,7 +18,7 @@ const Contacts = () => {
         <div className="contacts-cards">
           {/* Картка Email */}
           <div className="contacts-card card-light">
-            <h2 className="card-title">Send me an email:</h2>
+            <h3 className="card-title">Send me an email:</h3>
             <a href="mailto:marharytabakalo@gmail.com" className="email-link">
               marharytabakalo@gmail.com
             </a>
@@ -26,7 +26,7 @@ const Contacts = () => {
 
           {/* Картка Соцмереж */}
           <div className="contacts-card card-purple">
-            <h2 className="card-title">Or contact me via:</h2>
+            <h3 className="card-title">Or contact me via:</h3>
             <div className="social-links">
               <a href="https://www.linkedin.com/in/marharyta-bakalo/" target="_blank" rel="noopener noreferrer">
                 GitHub

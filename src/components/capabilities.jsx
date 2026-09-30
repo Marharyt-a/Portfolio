@@ -11,7 +11,7 @@ function Capabilities() {
             </div>
             <div className="cards-grid">
             <div className="card card-purple">
-                <h4>Web Development</h4>
+                <h3>Web Development</h3>
                 <ul>
                     <li>React</li>
                     <li>JavaScript</li>
@@ -19,7 +19,7 @@ function Capabilities() {
                 </ul>
             </div>
             <div className="card card-light">
-                <h4>UI & Frontend</h4>
+                <h3>UI & Frontend</h3>
                 <ul>
                     <li>Responsive UI</li>
                     <li>Figma → Code</li>
@@ -27,7 +27,7 @@ function Capabilities() {
                 </ul>
             </div>
             <div className="card card-light">
-                <h4>Manual QA & Testing</h4>
+                <h3>Manual QA & Testing</h3>
                 <ul>
                     <li>Functional testing</li>
                     <li>Bug reporting</li>
@@ -35,7 +35,7 @@ function Capabilities() {
                 </ul>
             </div>
             <div className="card card-purple">
-                <h4>Problem Solving</h4>
+                <h3>Problem Solving</h3>
                 <ul>
                     <li>Debugging</li>
                     <li>Requirements</li>

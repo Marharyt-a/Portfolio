@@ -28,7 +28,7 @@ function AboutMe() {
             <div className="about-cards">
                 <div className="experience">
                 <h3>My experience</h3>
-                <p>Freelance Manual Tester</p>
+                <h4>Freelance Manual Tester</h4>
                 <p>2025-2026</p>
             </div>
             <div className="education">
