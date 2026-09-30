@@ -1,33 +1,33 @@
-Personal Portfolio
+# Personal Portfolio
 
 A personal portfolio website built to showcase my skills, projects, and experience as an aspiring fullstack developer.
 
-About
+## About
 
 This portfolio presents my background in Computer Science, experience in manual testing, technical skills, and projects developed during my learning journey.
 
 The website is currently a beta version and will be continuously improved with new projects, features, and design updates.
 
-Built With
-React
-JavaScript
-Vite
-HTML5
-CSS3
-Features
-Responsive design
-About Me section
-Capabilities section
-Projects showcase
-Contact section
-GitHub Pages deployment
-Projects
+## Built With
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+##Features
+- Responsive design
+- About Me section
+- Capabilities section
+- Projects showcase
+- Contact section
+- GitHub Pages deployment
+## Projects
 
 The portfolio includes projects developed as part of my learning and practical experience.
 
 More projects will be added as the portfolio evolves.
 
-Getting Started
+## Getting Started
 
 To run the project locally:
 
@@ -39,7 +39,7 @@ npm run dev
 The development server will start at:
 
 http://localhost:5173/
-Build
+## Build
 
 To create a production build:
 
@@ -48,13 +48,13 @@ npm run build
 To preview the production build locally:
 
 npm run preview
-Deployment
+## Deployment
 
 The website is deployed using GitHub Pages and GitHub Actions.
 
 Every push to the main branch triggers a new deployment.
 
-Author
+## Author
 
 Marharyta Bakalo
 
@@ -72,4 +72,4 @@ Portfolio: https://marharyt-a.github.io/Portfolio/
 - Add animations and interactive elements
 - Add more detailed project pages
 
-This project is a work in progress and will be updated as I continue developing my skills.
+### This project is a work in progress and will be updated as I continue developing my skills.
