@@ -4,7 +4,7 @@ import portfolioImage from "../assets/projects_portfolio.png";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       {/* Верхня шапка */}
       <header className="projects-header">
         <h1>My projects</h1>
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
             
             <a
-              href="https://github.com"
+              href="https://github.com/Marharyt-a/Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="project-github-link"

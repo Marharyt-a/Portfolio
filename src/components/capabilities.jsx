@@ -3,7 +3,7 @@ import "../css/capabilities.css"
 function Capabilities() {
 
     return (
-        <div className="capabilities_body">
+        <div className="capabilities_body" id="capabilities">
             <div className="capabilities_header">
                 <h2>
                     Capabilities

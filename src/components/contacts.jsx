@@ -3,7 +3,7 @@ import "../css/contacts.css"
 
 const Contacts = () => {
   return (
-    <div className="contacts-wrapper">
+    <div className="contacts-wrapper" id="contact">
       {/* Верхня світла шапка */}
       <header className="contacts-header">
         <h1>Let’s connect!</h1>
@@ -28,14 +28,11 @@ const Contacts = () => {
           <div className="contacts-card card-purple">
             <h2 className="card-title">Or contact me via:</h2>
             <div className="social-links">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/marharyta-bakalo/" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 LinkedIn
-              </a>
-              <a href="/cv.pdf" download>
-                Download CV
               </a>
             </div>
           </div>

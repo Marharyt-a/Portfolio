@@ -4,6 +4,7 @@ import AboutMe from './components/about'
 import Capabilities from './components/capabilities'
 import Projects from './components/projects'
 import Contacts from './components/contacts'
+import ScrollToTop from './components/scrollToTop'
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
             <Projects />
             <Contacts />
             
-            
+            <ScrollToTop />
         </>
     )
 }
